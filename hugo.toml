@@ -1,0 +1,34 @@
+# placeholder, the deploy workflow passes the real one
+baseURL = 'https://example.org/'
+locale = 'es'
+defaultContentLanguage = 'es'
+title = 'Guía (nombre provisional)'
+theme = 'hugo-book'
+
+# no tag or category pages
+disableKinds = ['taxonomy', 'term']
+
+[markup.goldmark.renderer]
+  # no raw html inside the markdown
+  unsafe = false
+
+[params]
+  BookTheme = 'auto'
+  BookSection = '/'
+  BookSearch = true
+  # build fails on a broken link between pages
+  BookPortableLinks = 'error'
+
+# no third-party embeds, even if a page asks for one
+[privacy.disqus]
+  disable = true
+[privacy.googleAnalytics]
+  disable = true
+[privacy.instagram]
+  disable = true
+[privacy.vimeo]
+  disable = true
+[privacy.x]
+  disable = true
+[privacy.youtube]
+  disable = true
