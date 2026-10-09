@@ -1,0 +1,22 @@
+{{- /* page title, plus the versions a page explains and when it was last reviewed */ -}}
+{{- if not .IsHome -}}
+  {{- $reviewed := "" -}}
+  {{- with .Params.reviewed }}{{ $reviewed = time . }}{{ end -}}
+  {{- if $reviewed -}}
+    {{- if $reviewed.After now -}}
+      {{- errorf "%s: 'reviewed' is in the future (%s)" .File.Path ($reviewed.Format "2006-01-02") -}}
+    {{- end -}}
+  {{- else if eq .Kind "page" -}}
+    {{- errorf "%s: front matter needs 'reviewed', the date of the last review" .File.Path -}}
+  {{- end }}
+<header class="markdown page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if or .Params.versions $reviewed }}
+  <p class="page-meta">
+    {{- with .Params.versions }}{{ i18n "pageVersions" }} {{ delimit . " · " }}{{ end -}}
+    {{- if and .Params.versions $reviewed }} · {{ end -}}
+    {{- with $reviewed }}{{ i18n "pageReviewed" (dict "Date" (time.Format ":date_long" .)) }}{{ end -}}
+  </p>
+  {{- end }}
+</header>
+{{- end -}}

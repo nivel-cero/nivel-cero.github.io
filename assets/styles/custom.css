@@ -1,0 +1,6 @@
+/* header from layouts/_partials/docs/inject/content-before.html */
+.page-meta {
+  margin-top: calc(-1 * var(--space-8));
+  color: var(--color-accent-default);
+  font-size: var(--font-size-smaller);
+}

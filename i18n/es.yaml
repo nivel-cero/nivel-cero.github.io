@@ -1,0 +1,5 @@
+- id: pageVersions
+  translation: "Versiones:"
+
+- id: pageReviewed
+  translation: "Revisada el {{ .Date }}"

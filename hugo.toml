@@ -8,6 +8,10 @@ theme = 'hugo-book'
 # no tag or category pages
 disableKinds = ['taxonomy', 'term']
 
+# the review date is the one that counts, also for the sitemap
+[frontmatter]
+  lastmod = ['reviewed', ':default']
+
 [markup.goldmark.renderer]
   # no raw html inside the markdown
   unsafe = false
