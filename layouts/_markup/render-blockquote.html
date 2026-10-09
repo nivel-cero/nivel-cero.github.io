@@ -1,0 +1,15 @@
+{{- /* the theme's alert plus a label, so the kind of alert does not depend on its color alone */ -}}
+{{- $attributes := .Attributes -}}
+{{- $class := "" -}}
+{{- with .AlertType }}{{ $class = printf "book-hint %s" (lower .) }}{{ end -}}
+{{- with index $attributes "class" }}{{ $class = trim (printf "%s %s" $class .) " " }}{{ end -}}
+{{- with $class }}{{ $attributes = merge $attributes (dict "class" .) }}{{ end -}}
+<blockquote {{ range $key, $value := $attributes }}{{ printf "%s='%s'" $key $value | safeHTMLAttr }}{{ end }}>
+{{- with .AlertType }}
+<p class="book-hint-title">
+  {{- or (i18n (printf "alert-%s" (lower .))) (title .) -}}
+  {{- with $.AlertTitle }}: {{ . }}{{ end -}}
+</p>
+{{- end }}
+{{ .Text -}}
+</blockquote>

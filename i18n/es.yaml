@@ -3,3 +3,18 @@
 
 - id: pageReviewed
   translation: "Revisada el {{ .Date }}"
+
+- id: alert-note
+  translation: "Nota"
+
+- id: alert-tip
+  translation: "Consejo"
+
+- id: alert-important
+  translation: "Importante"
+
+- id: alert-warning
+  translation: "Aviso"
+
+- id: alert-caution
+  translation: "Peligro"

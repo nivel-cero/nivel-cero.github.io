@@ -4,3 +4,13 @@
   color: var(--color-accent-default);
   font-size: var(--font-size-smaller);
 }
+
+/* alert label from layouts/_markup/render-blockquote.html */
+.book-hint-title {
+  font-weight: bold;
+  margin-bottom: var(--space-4);
+}
+
+.book-hint-title + * {
+  margin-top: 0;
+}
