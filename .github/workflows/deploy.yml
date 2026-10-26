@@ -1,0 +1,64 @@
+# Builds the site with Hugo and publishes it on GitHub Pages on every push to main.
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+# one deploy at a time; a new push waits for the running one to finish
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  # same version as the local one; the hash is the one GitHub lists for the release file
+  HUGO_VERSION: 0.167.0
+  HUGO_SHA256: 0163f5c3deddac1f494a1629ddc40c65d18de9d5794facd98f7f96ac2c7d8957
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          submodules: true
+          persist-credentials: false
+
+      - name: Install Hugo
+        run: |
+          archive="hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl -sSfL -o "$RUNNER_TEMP/$archive" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${archive}"
+          echo "${HUGO_SHA256}  $RUNNER_TEMP/$archive" | sha256sum --check
+          mkdir -p "$RUNNER_TEMP/hugo"
+          tar -xzf "$RUNNER_TEMP/$archive" -C "$RUNNER_TEMP/hugo"
+          echo "$RUNNER_TEMP/hugo" >> "$GITHUB_PATH"
+
+      # a warning stops the build, as it does locally before each commit
+      - name: Build
+        run: hugo build --gc --minify --panicOnWarning
+
+      - name: Upload
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

@@ -1,5 +1,4 @@
-# placeholder, the deploy workflow passes the real one
-baseURL = 'https://example.org/'
+baseURL = 'https://nivel-cero.github.io/'
 locale = 'es'
 defaultContentLanguage = 'es'
 title = 'Guía (nombre provisional)'
