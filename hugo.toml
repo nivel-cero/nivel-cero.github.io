@@ -1,7 +1,7 @@
 baseURL = 'https://nivel-cero.github.io/'
 locale = 'es'
 defaultContentLanguage = 'es'
-title = 'Guía (nombre provisional)'
+title = 'Nivel Cero'
 theme = 'hugo-book'
 
 # no tag or category pages
