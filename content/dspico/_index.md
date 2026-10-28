@@ -15,8 +15,8 @@ tienen. Sin puerto USB no se puede cambiar el firmware.
 
 Para funcionar usa tres programas:
 
-- **El firmware**, grabado en la memoria del propio cartucho. Si el cartucho ya te funciona, no hace
-  falta tocarlo.
+- **[El firmware](firmware.md)**, grabado en la memoria del propio cartucho. Si el cartucho ya te
+  funciona, no hace falta tocarlo.
 - **[Pico Launcher](https://github.com/LNH-team/pico-launcher)**, el menú del DSpico. Se instala copiando
   sus archivos en la microSD.
 - **[Pico Loader](https://github.com/LNH-team/pico-loader)**, el que arranca los juegos. También se
