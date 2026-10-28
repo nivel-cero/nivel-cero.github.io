@@ -2,6 +2,7 @@ baseURL = 'https://nivel-cero.github.io/'
 locale = 'es'
 defaultContentLanguage = 'es'
 title = 'Nivel Cero'
+copyright = 'Texto bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es)'
 theme = 'hugo-book'
 
 # no tag or category pages
