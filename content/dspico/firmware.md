@@ -96,9 +96,9 @@ Para saberlo hace falta una DSi o una 3DS:
      WRFUxxed siempre sale así. Es normal: no hay que cambiar nada.
    - Si es una DSi sin Unlaunch y el cartucho arranca solo, saltándose el menú, lleva **WRFUxxed**. Por
      un momento verás «\*\*\* WRFU Tester v0.60 \*\*\*» en la pantalla de abajo. Después se abre Pico
-     Launcher si la microSD ya tiene sus archivos. Si sale una pantalla roja, faltan esos archivos. Si
-     sale azul, no se puede leer la microSD: prueba con otra, de marca y original. En los dos casos
-     revisa la microSD antes de pensar en el firmware.
+     Launcher si la microSD ya tiene sus archivos. Si sale una pantalla roja, faltan los archivos de
+     Pico Loader en la carpeta `_pico`. Si sale azul, no se puede leer la microSD: prueba con otra, de
+     marca y original. En los dos casos revisa la microSD antes de pensar en el firmware.
    - Si no aparece de ninguna forma, mira el primer caso de [¿Necesito flashearlo?](#necesito-flashearlo).
 
 En una DS o una DS Lite no se puede saber: las dos variantes se ven igual. Tampoco importa, porque ahí
