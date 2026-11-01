@@ -18,6 +18,7 @@ disableKinds = ['taxonomy', 'term']
 
 [params]
   BookTheme = 'auto'
+  BookLogo = 'logo.svg'
   BookSection = '/'
   BookSearch = true
   # build fails on a broken link between pages
