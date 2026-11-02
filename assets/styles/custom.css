@@ -14,3 +14,100 @@
 .book-hint-title + * {
   margin-top: 0;
 }
+
+/* colours: the logo's amber for links, cream in light mode, near black in dark mode */
+:root,
+:root[data-theme="light"],
+:root[data-theme="auto"] {
+  --body-background: #FBFAF7;
+  --gray-100: #F3F1EC;
+  --gray-200: #E6E2DA;
+  --color-link: #A15C00;
+  --color-visited-link: #8F5200;
+
+  --nc-ambar: #F5A524;
+  --nc-punto: rgba(23, 22, 28, 0.10);
+}
+
+:root[data-theme="dark"] {
+  --body-background: #1B1A21;
+  --body-font-color: #ECEAE6;
+  --gray-100: #24232B;
+  --gray-200: #302F38;
+  --gray-500: #C9C6CF;
+  --color-accent-default: #A9A6B2;
+  --color-link: #F5A524;
+  --color-visited-link: #F2C06B;
+
+  --nc-punto: rgba(255, 255, 255, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="auto"] {
+    --body-background: #1B1A21;
+    --body-font-color: #ECEAE6;
+    --gray-100: #24232B;
+    --gray-200: #302F38;
+    --gray-500: #C9C6CF;
+    --color-accent-default: #A9A6B2;
+    --color-link: #F5A524;
+    --color-visited-link: #F2C06B;
+
+    --nc-punto: rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* menu: "Nivel Cero" drawn in pixels; the text stays for screen readers */
+.book-brand span {
+  display: block;
+  flex: none;
+  width: 118px;
+  height: 14px;
+  overflow: hidden;
+  color: transparent;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 14px;
+  background: var(--body-font-color);
+  -webkit-mask: url(titulo.svg) no-repeat 0 0 / 118px 14px;
+  mask: url(titulo.svg) no-repeat 0 0 / 118px 14px;
+}
+
+.book-menu-content {
+  background-image: conic-gradient(from 270deg at 2px 2px, var(--nc-punto) 25%, transparent 0);
+  background-size: 12px 12px;
+}
+
+/* the open page */
+.book-menu nav a.active {
+  font-weight: 600;
+}
+
+.book-menu nav a.active::after {
+  content: "";
+  flex: none;
+  align-self: center;
+  width: 6px;
+  height: 6px;
+  margin-inline-start: 0.5rem;
+  background: var(--color-link);
+}
+
+/* pages */
+.markdown h2::before {
+  content: "";
+  display: inline-block;
+  width: 0.45em;
+  height: 0.45em;
+  margin-inline-end: 0.5em;
+  vertical-align: 0.12em;
+  background: var(--nc-ambar);
+}
+
+/* the system's own monospace font, nothing downloaded */
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: -0.01em;
+}
