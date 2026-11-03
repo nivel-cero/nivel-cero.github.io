@@ -1,5 +1,6 @@
 ---
 title: "Primeros pasos"
+BookIcon: microsd
 weight: 20
 versions: ["Pico Launcher 1.3.0", "Pico Loader 1.7.1"]
 reviewed: 2026-10-30

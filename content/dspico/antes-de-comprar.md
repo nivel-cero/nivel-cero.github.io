@@ -1,5 +1,6 @@
 ---
 title: "Antes de comprar"
+BookIcon: carrito
 weight: 10
 versions: ["Pico Launcher 1.3.0", "Pico Loader 1.7.1", "Firmware oficial 1.0.1"]
 reviewed: 2026-11-01

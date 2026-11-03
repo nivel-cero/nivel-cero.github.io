@@ -1,5 +1,6 @@
 ---
 title: "El firmware"
+BookIcon: chip
 weight: 30
 versions: ["Firmware oficial 1.0.1"]
 reviewed: 2026-10-28

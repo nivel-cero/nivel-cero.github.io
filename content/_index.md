@@ -28,3 +28,7 @@ Aquí no se dice dónde conseguir juegos, y no se enlaza ningún archivo con jue
 Los proyectos que explicamos son de sus autores, y cada página enlaza a la web oficial del proyecto. Esta
 guía no forma parte de ellos ni habla en su nombre. Nintendo DS, Nintendo DSi, Nintendo 3DS, Nintendo 2DS
 y los nombres de sus modelos son marcas de Nintendo, que no tiene ninguna relación con esta guía.
+
+La frambuesa que sale junto al DSpico en el menú es el logo del DSpico, del
+[LNH Team](https://github.com/LNH-team/dspico-hardware), con licencia
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Aquí sale sin su fondo.

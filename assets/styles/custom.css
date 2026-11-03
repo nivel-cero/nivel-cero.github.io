@@ -15,7 +15,7 @@
   margin-top: 0;
 }
 
-/* colours: the logo's amber for links, cream in light mode, near black in dark mode */
+/* colors: the logo's amber for links, cream in light mode, near black in dark mode */
 :root,
 :root[data-theme="light"],
 :root[data-theme="auto"] {
@@ -27,6 +27,8 @@
 
   --nc-ambar: #F5A524;
   --nc-punto: rgba(23, 22, 28, 0.10);
+  /* the amber icons, darker so they read on the cream */
+  --nc-icono-filtro: brightness(0.66) saturate(1.3);
 }
 
 :root[data-theme="dark"] {
@@ -40,6 +42,7 @@
   --color-visited-link: #F2C06B;
 
   --nc-punto: rgba(255, 255, 255, 0.08);
+  --nc-icono-filtro: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +57,7 @@
     --color-visited-link: #F2C06B;
 
     --nc-punto: rgba(255, 255, 255, 0.08);
+    --nc-icono-filtro: none;
   }
 }
 
@@ -76,6 +80,20 @@
 .book-menu-content {
   background-image: conic-gradient(from 270deg at 2px 2px, var(--nc-punto) 25%, transparent 0);
   background-size: 12px 12px;
+}
+
+/* page icons from BookIcon; the raspberry PNG keeps its own colors */
+.book-menu nav .book-icon {
+  flex: none;
+  align-self: center;
+  width: 16px;
+  height: 16px;
+  margin-inline-end: 0.5rem;
+  filter: none;
+}
+
+.book-menu nav .book-icon[src$=".svg"] {
+  filter: var(--nc-icono-filtro);
 }
 
 /* the open page */

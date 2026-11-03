@@ -1,5 +1,6 @@
 ---
 title: DSpico
+BookIcon: frambuesa
 weight: 10
 reviewed: 2026-10-15
 ---
