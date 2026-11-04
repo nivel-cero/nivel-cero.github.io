@@ -112,6 +112,19 @@
 }
 
 /* pages */
+.nc-icono-titulo {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: -4px;
+  margin-inline-end: 0.75rem;
+  image-rendering: pixelated;
+}
+
+.nc-icono-titulo[src$=".svg"] {
+  filter: var(--nc-icono-filtro);
+}
+
 .markdown h2::before {
   content: "";
   display: inline-block;

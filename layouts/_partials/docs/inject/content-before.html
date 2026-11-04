@@ -1,4 +1,4 @@
-{{- /* page title, plus the versions a page explains and when it was last reviewed */ -}}
+{{- /* page title with its BookIcon, plus the versions a page explains and when it was last reviewed */ -}}
 {{- if not .IsHome -}}
   {{- $reviewed := "" -}}
   {{- with .Params.reviewed }}{{ $reviewed = time . }}{{ end -}}
@@ -10,7 +10,7 @@
     {{- errorf "%s: front matter needs 'reviewed', the date of the last review" .File.Path -}}
   {{- end }}
 <header class="markdown page-header">
-  <h1>{{ .Title }}</h1>
+  <h1>{{ with .Params.BookIcon }}<img class="nc-icono-titulo" src="{{ partial "docs/icon" . }}" alt="" width="32" height="32">{{ end }}{{ .Title }}</h1>
   {{- if or .Params.versions $reviewed }}
   <p class="page-meta">
     {{- with .Params.versions }}{{ i18n "pageVersions" }} {{ delimit . " · " }}{{ end -}}
