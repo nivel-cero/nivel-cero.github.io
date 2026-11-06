@@ -22,9 +22,9 @@ Flashear es grabar un firmware nuevo en el cartucho. Las guías lo piden en esto
 
 - **La consola no ve el cartucho, o se queda colgada al encenderla con él puesto.** Antes de pensar en
   el firmware, comprueba lo fácil. Dentro del cartucho tiene que haber una microSD formateada en FAT32:
-  sin ella no funciona. Si no sabes cómo comprobarlo, lo explica el
-  [tutorial de formateo de Sanrax](https://sanrax.github.io/flashcart-guides/tutorials/formatting/) (en
-  inglés); formatear borra todo lo que tiene la tarjeta. La ranura de la consola tiene que estar limpia:
+  sin ella no funciona. Si no sabes cómo comprobarlo, lo explica
+  [La microSD](primeros-pasos.md#la-microsd), en «Primeros pasos»; formatear borra todo lo que tiene la
+  tarjeta. La ranura de la consola tiene que estar limpia:
   la guía de Sanrax aconseja soplarla con aire comprimido. Si aun así no aparece, puede que te llegara
   sin firmware: no todos lo traen.
 - **En una DSi, una 3DS o una 2DS, el cartucho aparece en el menú, pero al abrirlo sale un error que te

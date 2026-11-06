@@ -28,6 +28,13 @@ En esta guía, «DSi» incluye la DSi XL, y «3DS» incluye la 2DS y los modelos
 tiene instalado Unlaunch, en la DSi, o un sistema modificado (CFW) como Luma3DS, en la 3DS. Tener
 TWiLight Menu++ no basta.
 
+## Por dónde empezar
+
+Si todavía no tienes el cartucho, empieza por [Antes de comprar](antes-de-comprar.md), que explica en qué
+consolas funciona y en qué se diferencia de una R4 o de TWiLight Menu++. Si ya lo tienes, sigue
+[Primeros pasos](primeros-pasos.md) para preparar la microSD e instalar Pico Launcher y Pico Loader. Si
+algo falla, busca en [Problemas](problemas.md) lo que sale en la pantalla.
+
 ## Fuentes
 
 Esta página se basa en los repositorios del LNH Team (el del
