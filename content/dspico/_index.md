@@ -16,11 +16,11 @@ tienen. Sin puerto USB no se puede cambiar el firmware.
 
 Para funcionar usa tres programas:
 
-- **[El firmware](firmware.md)**, grabado en la memoria del propio cartucho. Si el cartucho ya te
+- [El firmware](firmware.md), grabado en la memoria del propio cartucho. Si el cartucho ya te
   funciona, no hace falta tocarlo.
-- **[Pico Launcher](https://github.com/LNH-team/pico-launcher)**, el menú del DSpico. Se instala copiando
+- [Pico Launcher](https://github.com/LNH-team/pico-launcher), el menú del DSpico. Se instala copiando
   sus archivos en la microSD.
-- **[Pico Loader](https://github.com/LNH-team/pico-loader)**, el que arranca los juegos. También se
+- [Pico Loader](https://github.com/LNH-team/pico-loader), el que arranca los juegos. También se
   instala copiando sus archivos en la microSD.
 
 En esta guía, «DSi» incluye la DSi XL, y «3DS» incluye la 2DS y los modelos XL y New. En una DSi o una

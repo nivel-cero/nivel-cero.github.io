@@ -20,18 +20,18 @@ de la microSD.
 
 Flashear es grabar un firmware nuevo en el cartucho. Las guías lo piden en estos casos:
 
-- **La consola no ve el cartucho, o se queda colgada al encenderla con él puesto.** Antes de pensar en
+- La consola no ve el cartucho, o se queda colgada al encenderla con él puesto. Antes de pensar en
   el firmware, comprueba lo fácil. Dentro del cartucho tiene que haber una microSD formateada en FAT32:
   sin ella no funciona. Si no sabes cómo comprobarlo, lo explica
   [La microSD](primeros-pasos.md#la-microsd), en «Primeros pasos»; formatear borra todo lo que tiene la
   tarjeta. La ranura de la consola tiene que estar limpia:
   la guía de Sanrax aconseja soplarla con aire comprimido. Si aun así no aparece, puede que te llegara
   sin firmware: no todos lo traen.
-- **En una DSi, una 3DS o una 2DS, el cartucho aparece en el menú, pero al abrirlo sale un error que te
-  pide apagar la consola.** Puede pasar aunque en una DS o una DS Lite funcione bien. Mira
+- En una DSi, una 3DS o una 2DS, el cartucho aparece en el menú, pero al abrirlo sale un error que te
+  pide apagar la consola. Puede pasar aunque en una DS o una DS Lite funcione bien. Mira
   [Si tu DSi o tu 3DS dice «Se ha producido un error»](#si-tu-dsi-o-tu-3ds-dice-se-ha-producido-un-error)
   antes de hacer nada.
-- **Los juegos van a saltos o se congelan al azar, y tu microSD es de marca y original.** Si no estás
+- Los juegos van a saltos o se congelan al azar, y tu microSD es de marca y original. Si no estás
   seguro de que lo sea, prueba antes con otra que sí lo sea. Si solo falla un juego concreto, prueba con
   la última versión de Pico Loader, que trae arreglos para juegos concretos. Si pasa igual, puede que tu
   cartucho tenga un firmware antiguo, de antes de que se arreglaran los fallos con algunas tarjetas.
@@ -50,8 +50,8 @@ La diferencia está en las DSi y 3DS sin modificar
 
 | Variante | DS y DS Lite | DSi y 3DS sin modificar | DSi y 3DS modificadas |
 |---|---|---|---|
-| **WRFUxxed** | Sí | Sí | Sí |
-| **Hybrid** | Sí | **No** | Sí |
+| WRFUxxed | Sí | Sí | Sí |
+| Hybrid | Sí | No | Sí |
 
 En esta página, «DSi» incluye la DSi XL, y «3DS» incluye la 2DS y los modelos XL y New.
 
@@ -62,10 +62,10 @@ En esta página, «DSi» incluye la DSi XL, y «3DS» incluye la 2DS y los model
 
 ### Qué cuenta como modificada
 
-- **Una DSi con Unlaunch**, un programa que se instala en la consola y la modifica. Para saberlo, saca el
+- Una DSi con Unlaunch, un programa que se instala en la consola y la modifica. Para saberlo, saca el
   cartucho y, con la DSi apagada, pulsa POWER y en seguida mantén pulsados A y B. Si sale un menú con
   «Nocash Unlaunch.dsi» en la pantalla de arriba, lo tiene. Si arranca el menú de siempre, no lo tiene.
-- **Una 3DS con el sistema modificado**: lo que se llama custom firmware o CFW, como Luma3DS. Ojo: aquí
+- Una 3DS con el sistema modificado: lo que se llama custom firmware o CFW, como Luma3DS. Ojo: aquí
   se habla del sistema de la consola, no del firmware del cartucho. Para saberlo, con la consola apagada,
   mantén pulsado SELECT y enciéndela sin soltarlo. Si sale un menú de configuración, lo tiene. Si arranca
   el menú HOME de siempre, no lo tiene.
@@ -91,11 +91,11 @@ Para saberlo hace falta una DSi o una 3DS:
 2. Con la consola apagada, mete el cartucho y enciéndela.
 3. Mira qué pasa:
    - Si en el menú aparece con el icono de una frambuesa y el nombre «DSpico» y «LNH team», lleva
-     **Hybrid**. Si al abrirlo funciona, déjalo así. Si sale un error, mira
+     Hybrid. Si al abrirlo funciona, déjalo así. Si sale un error, mira
      [Si tu DSi o tu 3DS dice «Se ha producido un error»](#si-tu-dsi-o-tu-3ds-dice-se-ha-producido-un-error).
-   - Si aparece como «Nintendo DS Demonstration», con un icono gris, lleva **WRFUxxed**. En una 3DS,
+   - Si aparece como «Nintendo DS Demonstration», con un icono gris, lleva WRFUxxed. En una 3DS,
      WRFUxxed siempre sale así. Es normal: no hay que cambiar nada.
-   - Si es una DSi sin Unlaunch y el cartucho arranca solo, saltándose el menú, lleva **WRFUxxed**. Por
+   - Si es una DSi sin Unlaunch y el cartucho arranca solo, saltándose el menú, lleva WRFUxxed. Por
      un momento verás «\*\*\* WRFU Tester v0.60 \*\*\*» en la pantalla de abajo. Después se abre Pico
      Launcher si la microSD ya tiene sus archivos. Si sale una pantalla roja, faltan los archivos de
      Pico Loader en la carpeta `_pico`. Si sale azul, no se puede leer la microSD: prueba con otra, de
@@ -129,13 +129,13 @@ acabó, el cartucho funcionó en esa misma consola después de flashearlo con WR
 
 Tienes tres opciones:
 
-1. **Dejarlo como está.** Con Hybrid, el cartucho sigue funcionando en una DS y una DS Lite.
-2. **Flashear el cartucho con WRFUxxed.** Este firmware lleva dentro WRFU Tester v0.60, un programa de
+1. Dejarlo como está. Con Hybrid, el cartucho sigue funcionando en una DS y una DS Lite.
+2. Flashear el cartucho con WRFUxxed. Este firmware lleva dentro WRFU Tester v0.60, un programa de
    pruebas de Nintendo. Por eso el firmware completo no se puede compartir legalmente ya hecho: hay que
    prepararlo con tu propia copia de ese programa. Si no la tienes, esta opción no es para ti. Si la
    tienes, lee primero [Cómo se flashea](#cómo-se-flashea); la guía de Sanrax explica después cómo se
    prepara.
-3. **Modificar la consola.** No hace falta para usar el cartucho, y no te lo recomendamos solo para
+3. Modificar la consola. No hace falta para usar el cartucho, y no te lo recomendamos solo para
    esto, porque tiene sus propios riesgos. En la DSi tiene que ser con Unlaunch, e instalarlo escribe en
    la memoria interna de la consola: hay una pequeña posibilidad de dejarla inservible. Si aun así
    quieres hacerlo, sigue las guías de referencia: [dsi.cfw.guide](https://dsi.cfw.guide/) para la DSi y
@@ -178,18 +178,20 @@ Los pasos:
 
 ## Si algo sale mal
 
-**El cartucho aparece en el menú, pero al abrirlo sale un error.** Mira
-[Si tu DSi o tu 3DS dice «Se ha producido un error»](#si-tu-dsi-o-tu-3ds-dice-se-ha-producido-un-error).
+### El cartucho aparece en el menú, pero al abrirlo sale un error
 
-**La consola no ve el cartucho, o se queda colgada al encenderla con él puesto.** Comprueba primero lo
-fácil: la microSD dentro del cartucho y en FAT32, y la ranura limpia. Si es un DSpico USB-C de Phenom
-Mod, la guía de Sanrax avisa de un fallo de su carcasa: con la consola encendida, aprieta el cartucho con
+Mira [Si tu DSi o tu 3DS dice «Se ha producido un error»](#si-tu-dsi-o-tu-3ds-dice-se-ha-producido-un-error).
+
+### La consola no ve el cartucho, o se queda colgada al encenderla con él puesto
+
+Comprueba primero lo fácil: la microSD dentro del cartucho y en FAT32, y la ranura limpia. Si es un
+DSpico USB-C de Phenom Mod, la guía de Sanrax avisa de un fallo de su carcasa: con la consola encendida, aprieta el cartucho con
 cuidado con el dedo; si entonces aparece, el problema es la carcasa. Si nada de eso lo explica, saca el
 cartucho de la consola, quítale la microSD y conéctalo a la computadora. Si aparece la unidad RPI-RP2, el
 cartucho responde. Comprueba que tu archivo es el de la variante que necesitas (nunca el de «Devkit») y
 vuelve a seguir [Cómo se flashea](#cómo-se-flashea).
 
-**No aparece la unidad RPI-RP2.**
+### No aparece la unidad RPI-RP2
 
 1. Comprueba que el cartucho está fuera de la consola y sin la microSD.
 2. Prueba con otro cable que transmita datos.
