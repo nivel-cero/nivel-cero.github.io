@@ -356,13 +356,8 @@ juego y qué truco falla.
 
 ## GBA
 
-Los juegos de GBA se abren con un emulador, GBARunner2 o GBARunner3, que esta guía todavía no explica.
-
-- En una 3DS, con el DSpico hay que usar `GBARunner2_arm9dldi_ds.nds`, el mismo que en una DS, y no el
-  que termina en `_3ds`.
-- Pokémon Esmeralda en español no arranca con GBARunner3. Con la versión «hicode» de GBARunner3, la
-  única que trae el archivo `_gba/configs/BPEE00.json`, se arregla copiándolo en la misma carpeta con el
-  nombre `BPES00.json`.
+Los juegos de GBA tienen su propia página, [Juegos de GBA](gba.md). Ahí está el arreglo de Pokémon
+Esmeralda en español y qué hacer si un juego se queda en blanco, en negro o en azul.
 
 ## Si nada de esto funciona
 

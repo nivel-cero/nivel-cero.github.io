@@ -41,7 +41,8 @@ hay que borrarlos antes de expulsar la tarjeta.
 Programa básico que va grabado de fábrica en una consola o una computadora: la prepara al encenderla y trae
 funciones que usan los demás programas. La DS tiene uno en cada uno de sus dos procesadores, y Pico Loader
 necesita una copia del de ARM7, el archivo `biosnds7.rom`, para abrir [DSiWare](#dsiware) y las copias de
-juegos con la [zona segura](#zona-segura) cifrada.
+juegos con la [zona segura](#zona-segura) cifrada. GBARunner3 necesita una copia del de la GBA, el
+archivo `bios.bin`.
 
 [Problemas > Un juego cifrado sin el BIOS](dspico/problemas.md#un-juego-cifrado-sin-el-bios)
 
@@ -151,7 +152,7 @@ Esta guía los llama [emuladores](#emulador), aunque el código del juego funcio
 procesador de la consola y el programa solo imita el resto de la GBA: por eso su autor principal, Gericom,
 describe GBARunner2 como *hypervisor*.
 
-[Problemas > GBA](dspico/problemas.md#gba)
+[Juegos de GBA](dspico/gba.md)
 
 ## HiyaCFW
 
