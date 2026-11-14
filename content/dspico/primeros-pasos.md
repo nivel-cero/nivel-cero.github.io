@@ -160,7 +160,8 @@ una, por ejemplo `Juegos`.
 Los juegos de DS son archivos `.nds`; el menú también muestra los `.srl` y los `.dsi`. Si un juego está
 dentro de un archivo comprimido, como un `.zip` o un `.7z`, descomprímelo antes: el menú no muestra los
 comprimidos. Los de GBA (`.gba`) no salen sin una configuración aparte: lo explica
-[Juegos de GBA](gba.md).
+[Juegos de GBA](gba.md). Los de otras consolas, como la NES o la Mega Drive, necesitan un emulador: lo
+explica [Otros emuladores](otros-emuladores.md).
 
 La partida se guarda junto al juego, en un archivo con el mismo nombre y la extensión `.sav`. Si mueves o
 renombras un juego, haz lo mismo con su `.sav`: si no, el juego empieza sin tu partida.

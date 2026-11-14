@@ -137,7 +137,8 @@ además tienes nesDS para la NES:
 ```
 
 Cada extensión solo puede tener un programa. La ruta de `appPath` puede empezar por `/` o por `fat:/`:
-valen las dos.
+valen las dos. Para los emuladores de otras consolas, [Otros emuladores](otros-emuladores.md) tiene un
+bloque con todas las asociaciones, también la de GBA.
 
 ## Si `settings.json` vuelve a como estaba
 

@@ -98,7 +98,7 @@ relación con él.
 Programa que hace que una consola o una computadora funcione como otra, para abrir sus juegos. Por ejemplo,
 nesDS abre juegos de NES en la DS.
 
-[Problemas > Un emulador se queda en blanco o colgado en una DSi](dspico/problemas.md#un-emulador-se-queda-en-blanco-o-colgado-en-una-dsi)
+[Otros emuladores](dspico/otros-emuladores.md)
 
 ## exFAT
 
