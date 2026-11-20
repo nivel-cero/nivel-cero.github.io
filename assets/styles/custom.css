@@ -142,3 +142,41 @@
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   letter-spacing: -0.01em;
 }
+
+/* folder trees from layouts/_markup/render-codeblock-carpetas.html */
+.markdown .nc-carpetas {
+  margin: var(--space-16) 0;
+  padding: var(--space-16);
+  background: var(--gray-100);
+  border: var(--space-1) solid var(--gray-200);
+  border-radius: var(--border-radius);
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  line-height: 1.9;
+}
+
+.markdown .nc-carpetas ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.markdown .nc-carpetas ul ul {
+  margin-inline-start: 7px;
+  padding-inline-start: 1rem;
+  border-inline-start: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+}
+
+.markdown .nc-carpetas li {
+  white-space: nowrap;
+}
+
+.markdown .nc-carpetas img {
+  vertical-align: -3px;
+  margin-inline-end: 0.5rem;
+}
+
+.markdown .nc-carpetas img[src*="carpeta"] {
+  filter: var(--nc-icono-filtro);
+}

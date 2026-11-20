@@ -1,0 +1,27 @@
+{{- /* ```carpetas draws a folder tree with icons: 4 spaces per level, and a line ending in / is a folder */ -}}
+{{- $pos := .Position -}}
+{{- $carpeta := partial "docs/icon" "carpeta" -}}
+{{- $archivo := partial "docs/icon" "archivo" -}}
+{{- $html := "" -}}
+{{- $antes := -1 -}}
+{{- range split (strings.TrimRight "\n" .Inner) "\n" -}}
+  {{- $nombre := strings.TrimLeft " " . -}}
+  {{- $espacios := sub (len .) (len $nombre) -}}
+  {{- $nivel := div $espacios 4 -}}
+  {{- if or (ne (mod $espacios 4) 0) (gt $nivel (add $antes 1)) -}}
+    {{- errorf "%s: carpetas: the line %q needs 4 more spaces than the folder it is in" $pos . -}}
+  {{- end -}}
+  {{- if gt $nivel $antes -}}
+    {{- $html = printf "%s<ul>" $html -}}
+  {{- else -}}
+    {{- $html = printf "%s</li>%s" $html (strings.Repeat (sub $antes $nivel) "</ul></li>") -}}
+  {{- end -}}
+  {{- if strings.HasSuffix $nombre "/" -}}
+    {{- $html = printf `%s<li><img src="%s" alt="Carpeta" width="16" height="16"><span>%s</span>` $html $carpeta (strings.TrimSuffix "/" $nombre | htmlEscape) -}}
+  {{- else -}}
+    {{- $html = printf `%s<li><img src="%s" alt="Archivo" width="16" height="16"><span>%s</span>` $html $archivo ($nombre | htmlEscape) -}}
+  {{- end -}}
+  {{- $antes = $nivel -}}
+{{- end -}}
+{{- $html = printf "%s</li>%s</ul>" $html (strings.Repeat $antes "</ul></li>") }}
+<div class="nc-carpetas">{{ $html | safeHTML }}</div>
