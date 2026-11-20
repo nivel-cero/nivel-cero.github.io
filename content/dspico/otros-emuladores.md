@@ -177,9 +177,9 @@ Una ruta como `data/S8DS` es una carpeta `S8DS` dentro de una carpeta `data`, en
    y elige uno. Salen con un icono genérico, no con el de su consola.
 
 Así queda la microSD con dos emuladores, el de NES y el de Mega Drive, además de lo que ya tenía. Lo que
-acaba en `/` es una carpeta, y lo que va más a la derecha está dentro de la carpeta de encima:
+va más a la derecha está dentro de la carpeta de encima:
 
-```
+```carpetas
 _pico/
     emulators/
         jEnesisDSPlus.nds

@@ -127,10 +127,10 @@ el grupo que diseña el DSpico.
    `_picoboot.nds`, se quedará como `_picoboot.nds.nds` y el cartucho no lo encontrará.
 6. De `Pico_Loader_DSPICO`, copia sus cinco archivos dentro de la carpeta `_pico` de la microSD.
 
-La microSD tiene que quedar así, además de las carpetas que tú pongas. Lo que acaba en `/` es una carpeta,
-y lo que va más a la derecha está dentro de la carpeta de encima:
+La microSD tiene que quedar así, además de las carpetas que tú pongas. Lo que va más a la derecha está
+dentro de la carpeta de encima:
 
-```
+```carpetas
 _picoboot.nds
 _pico/
     themes/

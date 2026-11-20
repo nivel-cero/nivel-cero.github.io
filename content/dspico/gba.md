@@ -102,9 +102,9 @@ un archivo puede quedarse con dos, como `bios.bin.bin`, y GBARunner3 no lo encue
    de la GBA. Ábrelos como un juego de DS.
 
 Así queda la microSD, además de lo que ya tenía, como `_picoboot.nds` y los archivos de Pico Loader. Lo
-que acaba en `/` es una carpeta, y lo que va más a la derecha está dentro de la carpeta de encima:
+que va más a la derecha está dentro de la carpeta de encima:
 
-```
+```carpetas
 _gba/
     bios.bin
     configs/
@@ -354,7 +354,8 @@ Pico Launcher puede poner portada a los juegos de GBA. Hay dos sitios para ella:
 
 El código está en el número de serie de la etiqueta del cartucho y de la caja: en `AGB-BPES-ESP` es
 `BPES`. Cada versión tiene el suyo, así que una portada con el código de la versión de EE. UU. (`BPEE`)
-no sale en la española. Si no sabes el código, usa la segunda forma, con el nombre del archivo.
+no sale en la española. Si no sabes el código, usa la segunda forma, con el nombre del archivo. Las
+herramientas que buscan las portadas solas están en [Portadas y temas](portadas-y-temas.md).
 
 Tiene que ser un BMP de 256 colores y 128 por 96 píxeles, del que solo se ven los 106 píxeles de la
 izquierda. Pico Launcher 1.3.0 no deja poner iconos ni títulos propios a los juegos de GBA; la próxima
