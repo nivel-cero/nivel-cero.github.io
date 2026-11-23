@@ -197,7 +197,7 @@ español. De Esmeralda solo trae el de la versión en inglés, `BPEE00.json`. Pa
    pulsa F2; en Mac, selecciónala y pulsa Retorno. En Windows, ten las extensiones a la vista, como dice
    [Instalar GBARunner3](#instalar-gbarunner3): si no, puede quedar como `BPES00.json.json`, y no sirve.
 
-Lo probamos con la española y, en una DS Lite, con la italiana. Con la italiana, el archivo es
+Se probó con la española y, en una DS Lite, con la italiana. Con la italiana, el archivo es
 `BPEI00.json`. También faltan los de la francesa, la alemana y la japonesa, pero nadie ha contado todavía
 si con ellas funciona lo mismo.
 

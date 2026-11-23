@@ -46,8 +46,8 @@ Formatear borra todo lo que tiene la tarjeta: si guarda algo que quieras conserv
 computadora. Cuando termines, vuelve a mirar el formato: tiene que decir FAT32.
 
 Las microSD de 2 GB o menos no se pueden dejar en FAT32 con los programas de esta página: quedan en FAT16
-(en Windows sale «FAT»; en Mac, «MS-DOS (FAT16)»). No hemos probado si el DSpico las lee, así que mejor
-usa una de 4 GB o más.
+(en Windows sale «FAT»; en Mac, «MS-DOS (FAT16)»). No está comprobado que el DSpico las lea, así que
+mejor usa una de 4 GB o más.
 
 ### Formatear en Windows
 

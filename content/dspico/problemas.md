@@ -13,7 +13,7 @@ salen al encender, antes del menú, están en [Si no arranca](primeros-pasos.md#
 
 ## Antes que nada
 
-En los casos que revisamos para esta página, la causa que más se repite es la microSD. Antes de buscar tu
+En los casos revisados para esta página, la causa que más se repite es la microSD. Antes de buscar tu
 problema más abajo, comprueba estas cuatro cosas:
 
 1. Que la microSD es de marca y original. Si usas la que vino con el cartucho, cámbiala. Un usuario con la
@@ -65,8 +65,8 @@ En el Mac no se ven, pero el cartucho sí los encuentra.
 
 El 10 de octubre de 2026, con `._picoLoader7.bin` y `._picoLoader9.bin` dentro de `_pico`,
 una New 3DS se quedaba en negro al abrir el DSpico, y una DS Lite arrancaba bien con la misma tarjeta. Al
-borrar los archivos `._`, la New 3DS volvió a arrancar. Solo lo hemos visto en la New 3DS, pero una DSi o
-cualquier otra 3DS arranca el cartucho igual que ella, así que también les puede pasar.
+borrar los archivos `._`, la New 3DS volvió a arrancar. No se ha probado en una DSi ni en otras 3DS, pero
+arrancan el cartucho igual que la New 3DS, así que también les puede pasar.
 
 Copiar con cuidado no lo evita: el Mac vuelve a crear esos archivos cada vez que copias algo a la tarjeta.
 Bórralos siempre antes de expulsarla:

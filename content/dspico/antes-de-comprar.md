@@ -110,8 +110,8 @@ un juego no te funciona o si quieres llevar tus juegos y tus partidas de una con
   llevas juegos y partidas a cualquier consola, también a una DS o una DS Lite.
 
 No hay que elegir uno: TWiLight Menu++ también funciona en el DSpico. Pero desde el cartucho no cuentes
-con esa combinación de botones: en una DS o una DS Lite no funciona, y en una DSi o una 3DS no lo hemos
-podido comprobar.
+con esa combinación de botones: en una DS o una DS Lite no funciona, y en una DSi o una 3DS no está
+comprobado.
 
 ## ¿Original o falso?
 
@@ -121,7 +121,7 @@ puede garantizar la calidad del cartucho que te llegue. Así que no hay un DSpic
 que lo venda una tienda no lo hace «pirata»: la licencia del diseño permite fabricarlo y venderlo. Lo más
 parecido a uno oficial es uno hecho con el diseño que publica el LNH Team, que lleva puerto micro USB.
 
-No hemos encontrado ningún caso de una R4 ni de otro cartucho vendido con la etiqueta del DSpico. Estas
+No se conoce ningún caso de una R4 ni de otro cartucho vendido con la etiqueta del DSpico. Estas
 cosas han hecho dudar a algunos compradores:
 
 - Versiones recortadas, como el «DSpico Lite» o los que van en una carcasa tipo Ace3DS+. No suelen tener

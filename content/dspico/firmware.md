@@ -56,7 +56,7 @@ La diferencia está en las DSi y 3DS sin modificar
 En esta página, «DSi» incluye la DSi XL, y «3DS» incluye la 2DS y los modelos XL y New.
 
 - Si tu cartucho ya funciona en todas las consolas donde lo vas a usar, no lo cambies.
-- Si vas a usarlo en alguna DSi o 3DS sin modificar, aunque sea la de otra persona, necesitas WRFUxxed.
+- Si vas a usarlo en alguna DSi o 3DS sin modificar, tuya o de un amigo, necesitas WRFUxxed.
 - Si todas esas consolas están modificadas, sirven las dos. La guía de Sanrax sugiere Hybrid, porque con
   WRFUxxed la DSi abre el cartucho sola al encenderse, sin pasar por su menú.
 
@@ -124,7 +124,7 @@ contando qué ves. Es un foro de Reddit en inglés, pero también hay quien preg
 el mensaje es otro, como «Failed to mount SD card» o una pantalla roja o azul, revisa primero la microSD
 y sus archivos.
 
-No hemos encontrado ningún caso de una consola dañada por este error. En los casos en que sabemos cómo
+No se conoce ningún caso de una consola dañada por este error. En los casos en que se sabe cómo
 acabó, el cartucho funcionó en esa misma consola después de flashearlo con WRFUxxed.
 
 Tienes tres opciones:
@@ -207,8 +207,8 @@ Escribe al vendedor o pide ayuda en [r/flashcarts](https://www.reddit.com/r/flas
 probado.
 
 Mientras consigas que aparezca la unidad RPI-RP2, un firmware mal grabado tiene arreglo: vuelve a copiar
-el archivo correcto, aunque antes copiaras uno equivocado o la copia se cortara. No hemos encontrado
-ningún caso de un DSpico que se quedara inservible por flashearlo.
+el archivo correcto, aunque antes copiaras uno equivocado o la copia se cortara. No se conoce ningún
+caso de un DSpico que se quedara inservible por flashearlo.
 
 ## Fuentes
 
