@@ -63,7 +63,7 @@ Cuando el Mac copia un archivo a una microSD en FAT32, crea al lado otro oculto 
 `._` delante, como `._picoLoader7.bin` junto a `picoLoader7.bin`. Ahí guarda datos que solo usa el Mac.
 En el Mac no se ven, pero el cartucho sí los encuentra.
 
-Lo comprobamos el 10 de octubre de 2026. Con `._picoLoader7.bin` y `._picoLoader9.bin` dentro de `_pico`,
+El 10 de octubre de 2026, con `._picoLoader7.bin` y `._picoLoader9.bin` dentro de `_pico`,
 una New 3DS se quedaba en negro al abrir el DSpico, y una DS Lite arrancaba bien con la misma tarjeta. Al
 borrar los archivos `._`, la New 3DS volvió a arrancar. Solo lo hemos visto en la New 3DS, pero una DSi o
 cualquier otra 3DS arranca el cartucho igual que ella, así que también les puede pasar.

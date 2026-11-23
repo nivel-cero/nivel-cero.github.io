@@ -147,9 +147,9 @@ llegó con Pico Loader 1.5.0 y también hace falta.
 > [!TIP]
 > La [guía del DSpico de Sanrax](https://sanrax.github.io/flashcart-guides/cart-guides/dspico/) enlaza un
 > paquete de flashcarts.net que trae todo esto en un solo zip, con `_picoboot.nds` ya renombrado: se
-> descomprime y lo que trae dentro se copia en la raíz de la microSD. No es del LNH Team. Lo comprobamos
-> el 28 de octubre de 2026: sus archivos eran idénticos a los oficiales de Pico Launcher 1.3.0 y Pico
-> Loader 1.7.1. Antes de usarlo, mira en esa guía qué versiones trae: lo pone en inglés, debajo del
+> descomprime y lo que trae dentro se copia en la raíz de la microSD. No es del LNH Team. El 28 de octubre
+> de 2026 traía los mismos archivos que las versiones oficiales de Pico Launcher 1.3.0 y Pico Loader
+> 1.7.1. Antes de usarlo, mira en esa guía qué versiones trae: lo pone en inglés, debajo del
 > enlace del paquete, en la línea que empieza por «Currently updated to».
 
 ## Los juegos
