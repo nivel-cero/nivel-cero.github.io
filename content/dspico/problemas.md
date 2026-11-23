@@ -361,8 +361,10 @@ Esmeralda en español y qué hacer si un juego se queda en blanco, en negro o en
 
 ## Si nada de esto funciona
 
-Pregunta en [r/flashcarts](https://www.reddit.com/r/flashcarts/) o en [r/DsPico](https://www.reddit.com/r/DsPico/).
-Son foros de Reddit en inglés, pero también hay quien pregunta en español. Si crees que es un fallo de
+Pregunta en [r/NivelCero](https://www.reddit.com/r/NivelCero/), la comunidad de esta guía en Reddit, en
+español. También puedes preguntar en [r/flashcarts](https://www.reddit.com/r/flashcarts/) o en
+[r/DsPico](https://www.reddit.com/r/DsPico/), que son en inglés, aunque allí también hay quien pregunta en
+español. Si crees que es un fallo de
 Pico Loader con un juego, busca antes en sus issues con la
 [etiqueta «game»](https://github.com/LNH-team/pico-loader/issues?q=is%3Aissue%20label%3Agame) y, si no
 está, abre una nueva: hace falta una cuenta de GitHub, y se escribe en inglés. Da estos datos:
