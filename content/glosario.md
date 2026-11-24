@@ -184,7 +184,7 @@ Aviso de un fallo en un proyecto de GitHub, la web donde los autores de muchos p
 Loader, publican su código. Para abrir una hace falta una cuenta de GitHub, y las de Pico Loader se
 escriben en inglés.
 
-[Problemas > Si nada de esto funciona](dspico/problemas.md#si-nada-de-esto-funciona)
+[Problemas > Juegos que no funcionan](dspico/problemas.md#juegos-que-no-funcionan)
 
 ## LNH Team
 

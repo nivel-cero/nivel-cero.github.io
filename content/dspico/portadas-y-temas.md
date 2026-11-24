@@ -69,7 +69,7 @@ que pide Pico Launcher. Son gratis y funcionan en Chrome o en Edge, sin instalar
 |---|---|---|
 | [PicoCover](https://scaletta.github.io/PicoCover/) | DS y GBA | Inglés |
 | [TwilightBoxart](https://twilightboxart.com/) | 26, entre ellas DS, GBA, Game Boy, NES, Super Nintendo y Mega Drive | Inglés |
-| [PicoDex](https://rasalopa.github.io/picodex/) | 13, entre ellas DS, GBA, Game Boy, NES, Super Nintendo y Mega Drive | Español |
+| [PicoDex](https://rasalopa.github.io/picodex/) | 13, entre ellas DS, GBA, Game Boy, NES, Super Nintendo y Mega Drive | Varios, entre ellos español |
 
 En Safari o en Firefox no pueden guardar en la microSD: PicoCover y TwilightBoxart te dan un `.zip`, y
 PicoDex no abre la tarjeta. Ese `.zip` trae una carpeta `_pico`. No la copies encima de la de la microSD,
