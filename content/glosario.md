@@ -310,7 +310,7 @@ la carpeta `Juegos`.
 nombre: la de `Juego.nds` es `Juego.sav`. Si mueves el juego o le cambias el nombre, haz lo mismo con su
 `.sav`.
 
-[Problemas > Partidas](dspico/problemas.md#partidas)
+[Partidas](dspico/partidas.md)
 
 ## TWiLight Menu++
 

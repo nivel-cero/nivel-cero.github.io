@@ -164,7 +164,8 @@ comprimidos. Los de GBA (`.gba`) no salen sin una configuración aparte: lo expl
 explica [Otros emuladores](otros-emuladores.md).
 
 La partida se guarda junto al juego, en un archivo con el mismo nombre y la extensión `.sav`. Si mueves o
-renombras un juego, haz lo mismo con su `.sav`: si no, el juego empieza sin tu partida.
+renombras un juego, haz lo mismo con su `.sav`: si no, el juego empieza sin tu partida. Cómo hacer copias
+y cómo traer las partidas de otro cartucho lo explica [Partidas](partidas.md).
 
 ## El primer arranque
 

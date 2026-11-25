@@ -345,14 +345,8 @@ juego y qué truco falla.
 
 ## Partidas
 
-- La partida es el archivo con el mismo nombre que el juego y la extensión `.sav`. Otros cartuchos la
-  guardan como `Juego.nds.sav`: si vienes de uno de ellos, cambia el nombre a `Juego.sav`. En Windows,
-  si las extensiones están ocultas, el archivo se ve como `Juego.nds`: escribe solo `Juego`.
-- Si tienes el mismo juego dos veces, cada copia tiene su partida.
-- Después de guardar, espera unos segundos antes de apagar, y no saques nunca el cartucho con la
-  consola encendida. A un usuario que lo sacó justo después de guardar, el DSpico empezó a arrancar en
-  una pantalla azul y perdió la partida.
-- Haz copias de tus `.sav` en la computadora de vez en cuando.
+Las partidas tienen su propia página, [Partidas](partidas.md). Ahí está qué hacer si un juego no
+guarda o empieza de cero, y cómo traer tus partidas de otro cartucho.
 
 ## GBA
 

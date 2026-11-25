@@ -1,7 +1,7 @@
 ---
 title: "Portadas y temas"
 BookIcon: paleta
-weight: 38
+weight: 39
 versions: ["Pico Launcher 1.3.0", "Pico Loader 1.7.1"]
 reviewed: 2026-11-20
 ---
